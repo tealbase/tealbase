@@ -1,0 +1,8 @@
+# Tealbase
+.branches
+.temp
+
+# dotenvx
+.env.keys
+.env.local
+.env.*.local

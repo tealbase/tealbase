@@ -1,0 +1,38 @@
+# Resend with Tealbase Edge Functions
+
+This example shows how to use Resend with [Tealbase Edge Functions](https://tealbase.com/docs/guides/functions).
+
+## Prerequisites
+
+To get the most out of this example, you’ll need to:
+
+- [Create an API key](https://resend.com/api-keys)
+- [Verify your domain](https://resend.com/domains)
+- Create your `.env` file and set your `RESEND_API_KEY`
+
+```bash
+cp .env.example .env
+```
+
+## Instructions
+
+1. Make sure you have the latest version of the [Tealbase CLI](https://tealbase.com/docs/guides/cli#installation) installed.
+
+2. Run function locally:
+
+```sh
+tealbase start
+tealbase functions serve --no-verify-jwt --env-file ./tealbase/.env.local
+```
+
+GET http://localhost:54321/functions/v1/send-email-resend
+
+3. Deploy function to Tealbase:
+
+```sh
+tealbase functions deploy resend --no-verify-jwt
+```
+
+## License
+
+MIT License

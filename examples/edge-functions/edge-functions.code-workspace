@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "name": "project-root",
+      "path": "./"
+    },
+    {
+      "name": "test-client",
+      "path": "app"
+    },
+    {
+      "name": "tealbase-functions",
+      "path": "tealbase/functions"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "node_modules/": true,
+      "app/": true,
+      "tealbase/functions/": true
+    },
+    "deno.importMap": "./tealbase/functions/import_map.json"
+  }
+}

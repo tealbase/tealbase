@@ -1,0 +1,69 @@
+---
+title: Tealbase vs Firebase
+description: Tealbase is an Open Source Firebase Alternative with a SQL based Database, Auth, and Cloud Functions
+author: ekjot_singh
+tags:
+  - comparison
+date: '2022-05-26'
+toc_depth: 3
+---
+
+## What is Firebase?
+
+Now owned by Google, Firebase is a collection of tools aimed at mobile and web developers. At its core is the Firestore database.
+
+Firestore allows you to store “documents”. These are collections of key:value pairs where the value can be another sub-document. Document based storage is perfect for unstructured data, since two documents in a collection do not necessarily need to have the same structure.
+
+Firebase also offers other things that web developers find useful like an auth service for user management, and wrappers for other Google services such as Cloud Functions, and File Storage.
+
+## What is Tealbase?
+
+Tealbase is an open source firebase alternative, but instead of being built around a document-based datastore, Tealbase offers a relational database management system called PostgreSQL. This comes with a few advantages:
+
+- It’s open source, so there is zero lock in.
+- You can query it with SQL, a proven and powerful query language.
+- It has a long track record of being used at scale.
+- It’s the database of choice for transactional workloads (think apps and websites, or other things that require near-instant responses to queries).
+- It comes with decades of [useful postgres extensions and plug-ins](https://tealbase.com/docs/guides/database/extensions).
+
+At Tealbase we’ve always been huge fans of Firebase - so we started adding a few things on top of PostgreSQL in an attempt to reach feature parity, including:
+
+- Auto-generated API - [query your data straight from the client](https://tealbase.com/docs/guides/api#rest-api-overview).
+- Realtime - [changes in your data will be streamed directly to your application](https://tealbase.com/docs/reference/dart/subscribe).
+- Auth - [a simple to integrate auth system and SQL based rules engine](https://tealbase.com/auth).
+- Functions - [javascript and typescript functions that deploy out globally](https://tealbase.com/edge-functions).
+- Storage - [hosting images, videos, and pdfs easily](https://tealbase.com/storage).
+
+## How are they similar?
+
+Both Firebase and Tealbase are based on the idea of bringing a superior developer experience to databases. With both platforms you can spin up a new project from directly inside the browser without the need to download any extra tools or software to your machine. Both platforms come with a useful dashboard UI for debugging your data in realtime, which is especially useful for fast iterations when in development.
+
+Both Firebase and Tealbase have invested heavily in client side libraries so you can communicate with your database directly from the client. Firebase has their [Firebase Javascript SDK](https://github.com/firebase/firebase-js-sdk) and Tealbase has [tealbase-js an isomorphic client](https://github.com/tealbase/tealbase-js/) that can be used both on the client also on the server in a node-js environment.
+
+## How are they different?
+
+Firebase and Tealbase differ in several ways. The main one being that Firebase is a document store, whereas Tealbase is based on PostgreSQL - a relational, SQL-based database management system.
+
+There are some other important differences.
+
+### Open Source
+
+Tealbase is open source. Along with the hosted cloud platform, you can also take the Tealbase stack and host it inside your own cloud or run it locally on your machine. There is no vendor lock in.
+
+### Pricing
+
+[Firebase charges for reads, writes and deletes](https://firebase.google.com/pricing), which can lead to some unpredictability, especially in the early stages of a project when your application is in heavy development. Tealbase [charges based on the amount of data stored](https://tealbase.com/pricing), with breathing room for unlimited API requests and an unlimited number of Auth users.
+
+### Performance
+
+We created a benchmarking repo where you can compare the performance of both services in different scenarios. Our most recent results show that [Tealbase outperforms Firebase by up to 4x](https://github.com/tealbase/benchmarks/issues/8) on number of reads per second, and 3.1x on writes per second.
+
+## How do I migrate from Firebase to Tealbase?
+
+Since Firebase is document based, migrating into a relational database requires you to map your data structure across into a SQL schema. Luckily we’ve built a [handy conversion tool to do it for you](https://tealbase.com/docs/guides/migrations/firestore-data).
+
+We also have guides and tools for [migrating Firebase Auth to Tealbase Auth](https://tealbase.com/docs/guides/migrations/firebase-auth) for [migrating Firebase Storage files to Tealbase Storage](https://tealbase.com/docs/guides/migrations/firebase-storage).
+
+These are by far the most complete Firebase to Postgres migration tools available anywhere on the web.
+
+You can [try Tealbase for free](https://tealbase.com/dashboard). If you require Enterprise level support with your project or migration, please get in touch using our [Enterprise contact form](https://forms.tealbase.com/enterprise).

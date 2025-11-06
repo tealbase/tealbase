@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://tealbase.com/sitemap.xml

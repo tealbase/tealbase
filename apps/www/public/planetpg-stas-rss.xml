@@ -1,0 +1,19 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>'Postgres | Tealbase Blog</title>
+      <link>https://tealbase.com/blog</link>
+      <description>Latest Postgres news from Stanislav Muzhyk at Tealbase</description>
+      <language>en</language>
+      <lastBuildDate>Wed, 13 Dec 2023 00:00:00 -0700</lastBuildDate>
+      <atom:link href="https://tealbase.com/planetpg-stas-rss.xml" rel="self" type="application/rss+xml"/>
+      <item>
+  <guid>https://tealbase.com/blog/supavisor-postgres-connection-pooler</guid>
+  <title>Tealvisor 1.0: a scalable connection pooler for Postgres</title>
+  <link>https://tealbase.com/blog/supavisor-postgres-connection-pooler</link>
+  <description>Tealvisor is now used across all projects, providing a scalable and cloud-native Postgres connection pooler that can handle millions of connections</description>
+  <pubDate>Wed, 13 Dec 2023 00:00:00 -0700</pubDate>
+</item>
+
+    </channel>
+  </rss>

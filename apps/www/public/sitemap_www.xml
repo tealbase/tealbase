@@ -433,12 +433,6 @@
   </url>
 
   <url>
-    <loc>https://tealbase.com/blog/community-day-lw3</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
     <loc>https://tealbase.com/blog/tealbase-studio</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -518,12 +512,6 @@
 
   <url>
     <loc>https://tealbase.com/blog/tealbase-launch-week-four</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://tealbase.com/blog/community-day-lw4</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1149,12 +1137,6 @@
   </url>
 
   <url>
-    <loc>https://tealbase.com/blog/tealbase-lw8-hackathon</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
     <loc>https://tealbase.com/blog/react-native-storage</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -1312,18 +1294,6 @@
 
   <url>
     <loc>https://tealbase.com/blog/beta-update-november-2023</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://tealbase.com/blog/community-meetups-lwx</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://tealbase.com/blog/tealbase-hackathon-lwx</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1761,12 +1731,6 @@
   </url>
 
   <url>
-    <loc>https://tealbase.com/blog/tealbase-lw12-hackathon</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
     <loc>https://tealbase.com/blog/tealbase-vercel-partnership</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -1792,12 +1756,6 @@
 
   <url>
     <loc>https://tealbase.com/blog/local-first-expo-legend-state</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://tealbase.com/blog/lw12-hackathon-winners</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1918,12 +1876,6 @@
 
   <url>
     <loc>https://tealbase.com/blog/calendars-in-postgres-using-foreign-data-wrappers</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://tealbase.com/blog/lw13-hackathon-winners</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

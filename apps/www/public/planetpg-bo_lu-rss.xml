@@ -1,0 +1,19 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>'Postgres | Tealbase Blog</title>
+      <link>https://tealbase.com/blog</link>
+      <description>Latest Postgres news from Bo Lu at Tealbase</description>
+      <language>en</language>
+      <lastBuildDate>Thu, 14 Dec 2023 00:00:00 -0700</lastBuildDate>
+      <atom:link href="https://tealbase.com/planetpg-bo_lu-rss.xml" rel="self" type="application/rss+xml"/>
+      <item>
+  <guid>https://tealbase.com/blog/tealbase-wrappers-v02</guid>
+  <title>Tealbase Wrappers v0.2: Query Pushdown &amp; Remote Subqueries</title>
+  <link>https://tealbase.com/blog/tealbase-wrappers-v02</link>
+  <description>Tealbase Wrappers v0.2 brings more Wrappers, query pushdown, remote subquery, and more</description>
+  <pubDate>Thu, 14 Dec 2023 00:00:00 -0700</pubDate>
+</item>
+
+    </channel>
+  </rss>

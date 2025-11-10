@@ -134,13 +134,6 @@
   <pubDate>Fri, 20 Dec 2024 00:00:00 -0700</pubDate>
 </item>
 <item>
-  <guid>https://tealbase.com/blog/lw13-hackathon-winners</guid>
-  <title>Tealbase Launch Week 13 Hackathon Winners</title>
-  <link>https://tealbase.com/blog/lw13-hackathon-winners</link>
-  <description>Announcing the winners of the Tealbase Launch Week 13 Hackathon.</description>
-  <pubDate>Fri, 20 Dec 2024 00:00:00 -0700</pubDate>
-</item>
-<item>
   <guid>https://tealbase.com/blog/how-to-hack-the-base</guid>
   <title>How to Hack the Base!</title>
   <link>https://tealbase.com/blog/how-to-hack-the-base</link>
@@ -267,13 +260,6 @@
   <pubDate>Tue, 08 Oct 2024 00:00:00 -0700</pubDate>
 </item>
 <item>
-  <guid>https://tealbase.com/blog/lw12-hackathon-winners</guid>
-  <title>Tealbase Launch Week 12 Hackathon Winners</title>
-  <link>https://tealbase.com/blog/lw12-hackathon-winners</link>
-  <description>Announcing the winners of the Tealbase Launch Week 12 Hackathon.</description>
-  <pubDate>Mon, 30 Sep 2024 00:00:00 -0700</pubDate>
-</item>
-<item>
   <guid>https://tealbase.com/blog/local-first-expo-legend-state</guid>
   <title>Local-first Realtime Apps with Expo and Legend-State</title>
   <link>https://tealbase.com/blog/local-first-expo-legend-state</link>
@@ -307,13 +293,6 @@
   <link>https://tealbase.com/blog/tealbase-vercel-partnership</link>
   <description>Vercel just added official First-Party Integrations. We&apos;re one of them.</description>
   <pubDate>Wed, 28 Aug 2024 00:00:00 -0700</pubDate>
-</item>
-<item>
-  <guid>https://tealbase.com/blog/tealbase-lw12-hackathon</guid>
-  <title>Tealbase Launch Week 12 Hackathon</title>
-  <link>https://tealbase.com/blog/tealbase-lw12-hackathon</link>
-  <description>Build an Open Source Project over 10 days. 5 prize categories.</description>
-  <pubDate>Mon, 26 Aug 2024 00:00:00 -0700</pubDate>
 </item>
 <item>
   <guid>https://tealbase.com/blog/mozilla-llamafile-in-tealbase-edge-functions</guid>
@@ -827,20 +806,6 @@
   <pubDate>Tue, 05 Dec 2023 00:00:00 -0700</pubDate>
 </item>
 <item>
-  <guid>https://tealbase.com/blog/community-meetups-lwx</guid>
-  <title>Launch Week X Community Meetups</title>
-  <link>https://tealbase.com/blog/community-meetups-lwx</link>
-  <description>The Tealbase Community Meetups are back, and this time we&apos;ve got more events happening all over the world!</description>
-  <pubDate>Tue, 05 Dec 2023 00:00:00 -0700</pubDate>
-</item>
-<item>
-  <guid>https://tealbase.com/blog/tealbase-hackathon-lwx</guid>
-  <title>Tealbase Launch Week X Hackathon</title>
-  <link>https://tealbase.com/blog/tealbase-hackathon-lwx</link>
-  <description>Build an Open Source Project over 10 days. 5 prize categories.</description>
-  <pubDate>Tue, 05 Dec 2023 00:00:00 -0700</pubDate>
-</item>
-<item>
   <guid>https://tealbase.com/blog/automatic-cli-login</guid>
   <title>Automatic CLI login</title>
   <link>https://tealbase.com/blog/automatic-cli-login</link>
@@ -1021,13 +986,6 @@
   <link>https://tealbase.com/blog/react-native-storage</link>
   <description>Learn how to implement authentication and file upload in a React Native app.</description>
   <pubDate>Tue, 01 Aug 2023 00:00:00 -0700</pubDate>
-</item>
-<item>
-  <guid>https://tealbase.com/blog/tealbase-lw8-hackathon</guid>
-  <title>Tealbase Launch Week 8 Hackathon</title>
-  <link>https://tealbase.com/blog/tealbase-lw8-hackathon</link>
-  <description>Build an Open Source Project over 10 days. 5 prize categories.</description>
-  <pubDate>Tue, 25 Jul 2023 00:00:00 -0700</pubDate>
 </item>
 <item>
   <guid>https://tealbase.com/blog/flutter-authentication</guid>
@@ -1751,13 +1709,6 @@
   <pubDate>Tue, 29 Mar 2022 00:00:00 -0700</pubDate>
 </item>
 <item>
-  <guid>https://tealbase.com/blog/community-day-lw4</guid>
-  <title>Community Day</title>
-  <link>https://tealbase.com/blog/community-day-lw4</link>
-  <description>Kicking off Launch Week 4 with contributors, partners, and friends.</description>
-  <pubDate>Mon, 28 Mar 2022 00:00:00 -0700</pubDate>
-</item>
-<item>
   <guid>https://tealbase.com/blog/should-i-open-source-my-company</guid>
   <title>Should I Open Source my Company?</title>
   <link>https://tealbase.com/blog/should-i-open-source-my-company</link>
@@ -1854,13 +1805,6 @@
   <link>https://tealbase.com/blog/tealbase-studio</link>
   <description>The same Dashboard that you&apos;re using on our Platform is now available for local development and Self-Hosting.</description>
   <pubDate>Tue, 30 Nov 2021 00:00:00 -0700</pubDate>
-</item>
-<item>
-  <guid>https://tealbase.com/blog/community-day-lw3</guid>
-  <title>Community Day</title>
-  <link>https://tealbase.com/blog/community-day-lw3</link>
-  <description>Kicking off launch week by highlighting the communities around Tealbase.</description>
-  <pubDate>Mon, 29 Nov 2021 00:00:00 -0700</pubDate>
 </item>
 <item>
   <guid>https://tealbase.com/blog/whats-new-in-postgres-14</guid>
